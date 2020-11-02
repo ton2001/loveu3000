@@ -11,21 +11,39 @@ import Pic2 from './components/pic_copy'
 import Tex from './components/tex'
 import Filter from './components/Filter'
 import Filter2 from './components/Filter_copy'
+import Chats from './components/Chats'
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <Header />
-      <SwipeButtons />
-      <Tex />
-      <Love />
-      <Love2 />
-      <TinderCards_copy />
-      <Pic />
-      <Pic2 />
-      <Filter />
-      <Filter2 />
+      <Switch>
+        <Route path="/chat">
+            <Header backButton="/"/>
+            <Chats />
+        </Route>
+        <Route path = '/setting'>
+            <Header backPage="/"/>
+            <h1>Setting Page</h1>
+        </Route>
+        <Route path = '/'>
+              <Header />
+              <SwipeButtons />
+              <Tex />
+              <Love />
+              <Love2 />
+              <TinderCards_copy />
+              <Pic />
+              <Pic2 />
+              <Filter />
+              <Filter2 />
+          </Route>
+        </Switch>
+      
+
     </div>
+    </Router>
   );
 }
 
