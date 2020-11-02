@@ -25,9 +25,6 @@ function App() {
       <Pic2 />
       <Filter />
       <Filter2 />
-      
-
-      
     </div>
   );
 }
