@@ -1,0 +1,12 @@
+.piss{
+    top: 50px;
+    position: fixed;
+    right: 120px;
+    
+}
+.k{
+    width:225px;
+    height:225px;
+    object-fit:cover;
+    border-radius: 50px
+}

@@ -1,0 +1,13 @@
+.lovee22{
+    position: fixed;
+    bottom: 500px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+}
+.love11{
+    padding: 1vw !important;
+    color:white !important;
+    background-color:#FF9AA2;;
+    border-radius: 50%;
+}

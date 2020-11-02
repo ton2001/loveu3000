@@ -1,0 +1,16 @@
+.card{
+    width: 86px;
+    height: 86px;
+    left: 15px;
+    top: 29px;
+    border-radius: 50%;
+}
+.img-eye{
+    width: 100px;
+    height: 100px;
+    left: 15px;
+    top: 29px;
+    border-radius: 50%;
+    object-fit: contain;
+    border: 3px solid#FF9AA2
+}

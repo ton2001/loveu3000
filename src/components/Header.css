@@ -1,13 +1,18 @@
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 100;
-    border-bottom: 1px solid #f9f9f9 ;
+   position: fixed;
+   bottom: 0px;
+   display: flex;
+   width: 100%;
+   background: #FF9AA2;
+   justify-content: space-around; 
+
 }
+
 
 
 .header_logo{
     object-fit: contain;
-    height: 40px;
+    height: 70px;
 }
+
+

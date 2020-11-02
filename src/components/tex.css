@@ -1,0 +1,15 @@
+.pic222{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    position: fixed;
+    top: 40px;
+    right: 80px;
+    
+}
+.k{
+    width:225px;
+    height:225px;
+    object-fit:cover;
+    border-radius: 50px
+}

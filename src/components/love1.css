@@ -1,0 +1,20 @@
+.lovee{
+    position: fixed;
+    bottom: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+}
+.love1{
+    padding: 1vw !important;
+    color:white !important;
+    background-color:#FF9AA2;;
+    border-radius: 50%;
+}
+.lovee2{
+    position: fixed;
+    bottom: 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+}
